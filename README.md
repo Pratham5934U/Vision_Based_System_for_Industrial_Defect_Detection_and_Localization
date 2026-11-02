@@ -1,10 +1,10 @@
-# 🏭 AI-Powered Industrial Surface Defect Detection
+#  AI-Powered Industrial Surface Defect Detection
 
 > Automated quality inspection using Classical CV, Deep Learning (EfficientNet-B0), and Unsupervised Anomaly Detection (PatchCore) — with a Streamlit web dashboard.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This system detects surface defects in industrial parts (steel, castings) using three complementary approaches:
 
@@ -16,7 +16,7 @@ This system detects surface defects in industrial parts (steel, castings) using 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 industrial-defect-detection/
@@ -50,7 +50,7 @@ industrial-defect-detection/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Set Up Environment
 
@@ -63,7 +63,7 @@ pip install -r requirements.txt
 ### 2. Download Dataset
 
 Download the **NEU Surface Defect Database** from Kaggle:
-👉 https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database
+-> https://www.kaggle.com/datasets/kaustubhdikshit/neu-surface-defect-database
 
 Place it in the `data/` folder, then run:
 
@@ -88,7 +88,7 @@ Open browser at **http://localhost:8501**
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 **NEU Surface Defect Database** — 6 classes, 1800 images total (300 per class):
 - `crazing` — network of fine cracks
@@ -100,7 +100,7 @@ Open browser at **http://localhost:8501**
 
 ---
 
-## 🧠 Methodology
+##  Methodology
 
 ```
 Raw Image
@@ -117,19 +117,19 @@ Raw Image
 
 ---
 
-## 📊 Results
+##  Results
 
 Results (accuracy plots, confusion matrices, Grad-CAM overlays) are saved in the `results/` folder after running the notebooks.
 
 ---
 
-## 👥 Team
+##  Team
 
 **Course:** Machine Learning + Fundamentals of Computer Vision (SEM 5)
 
 ---
 
-## 📚 References
+##  References
 
 1. Haralick et al., "Textural Features for Image Classification," IEEE 1973
 2. He et al., "Deep Residual Learning for Image Recognition," CVPR 2016
