@@ -1,0 +1,17 @@
+torch
+torchvision
+opencv-python
+scikit-learn
+scikit-image
+matplotlib
+seaborn
+streamlit
+albumentations
+anomalib
+grad-cam
+pandas
+pillow
+tqdm
+jupyter
+ipykernel
+notebook
